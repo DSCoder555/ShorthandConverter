@@ -79,3 +79,23 @@ body{
 .task{
   font-family: 'Raleway', sans-serif;
 }
+/*
+Extension starts below
+-nottask: strikethrough text
+-canceledTitle: red title
+-canceled: centered purple box
+*/
+.nottask{
+  font-family: 'Raleway', sans-serif;
+  text-decoration: line-through;
+}
+
+.canceledTitle{
+  font-family: 'Raleway', sans-serif;
+  color: red;
+}
+
+#canceled{
+  grid-column: 3/ span 1;
+  border-color: purple;
+}
